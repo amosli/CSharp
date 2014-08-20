@@ -1,0 +1,8 @@
+D:\work\douloveme\douloveme\bin\Debug\douloveme.exe.config
+D:\work\douloveme\douloveme\bin\Debug\douloveme.exe
+D:\work\douloveme\douloveme\bin\Debug\douloveme.pdb
+D:\work\douloveme\douloveme\obj\Debug\douloveme.Form1.resources
+D:\work\douloveme\douloveme\obj\Debug\douloveme.Properties.Resources.resources
+D:\work\douloveme\douloveme\obj\Debug\douloveme.csproj.GenerateResource.Cache
+D:\work\douloveme\douloveme\obj\Debug\douloveme.exe
+D:\work\douloveme\douloveme\obj\Debug\douloveme.pdb
