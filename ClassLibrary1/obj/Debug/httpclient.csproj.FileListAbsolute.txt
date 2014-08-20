@@ -1,0 +1,2 @@
+C:\Users\amosli\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.exe
+C:\Users\amosli\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
