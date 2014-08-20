@@ -1,1 +1,9 @@
 D:\work\PictureBox控件学习\PictureBox控件学习\bin\Debug\PictureBox控件学习.exe.config
+D:\work\PictureBox控件学习\PictureBox控件学习\bin\Debug\PictureBox控件学习.exe
+D:\work\PictureBox控件学习\PictureBox控件学习\bin\Debug\PictureBox控件学习.pdb
+D:\work\PictureBox控件学习\PictureBox控件学习\obj\Debug\PictureBox控件学习.csprojResolveAssemblyReference.cache
+D:\work\PictureBox控件学习\PictureBox控件学习\obj\Debug\PictureBox控件学习.Form1.resources
+D:\work\PictureBox控件学习\PictureBox控件学习\obj\Debug\PictureBox控件学习.Properties.Resources.resources
+D:\work\PictureBox控件学习\PictureBox控件学习\obj\Debug\PictureBox控件学习.csproj.GenerateResource.Cache
+D:\work\PictureBox控件学习\PictureBox控件学习\obj\Debug\PictureBox控件学习.exe
+D:\work\PictureBox控件学习\PictureBox控件学习\obj\Debug\PictureBox控件学习.pdb
