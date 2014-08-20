@@ -1,0 +1,9 @@
+D:\work\mdi设计\mdi设计\bin\Debug\mdi设计.exe.config
+D:\work\mdi设计\mdi设计\bin\Debug\mdi设计.exe
+D:\work\mdi设计\mdi设计\bin\Debug\mdi设计.pdb
+D:\work\mdi设计\mdi设计\obj\Debug\mdi设计.csprojResolveAssemblyReference.cache
+D:\work\mdi设计\mdi设计\obj\Debug\mdi设计.Form1.resources
+D:\work\mdi设计\mdi设计\obj\Debug\mdi设计.Properties.Resources.resources
+D:\work\mdi设计\mdi设计\obj\Debug\mdi设计.csproj.GenerateResource.Cache
+D:\work\mdi设计\mdi设计\obj\Debug\mdi设计.exe
+D:\work\mdi设计\mdi设计\obj\Debug\mdi设计.pdb
