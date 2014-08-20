@@ -46,5 +46,11 @@ namespace PictureBox控件学习
             }
             pboGirls.ImageLocation = imgPaths[ImgNum];
         }
+
+        Random rnd = new Random();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pboGirls.ImageLocation = imgPaths[rnd.Next(imgPaths.Length)];
+        }
     }
 }

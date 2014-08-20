@@ -35,6 +35,7 @@
             this.lbTime = new System.Windows.Forms.Label();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pboGirls)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,14 +45,15 @@
             this.pboGirls.Image = ((System.Drawing.Image)(resources.GetObject("pboGirls.Image")));
             this.pboGirls.Location = new System.Drawing.Point(0, 0);
             this.pboGirls.Name = "pboGirls";
-            this.pboGirls.Size = new System.Drawing.Size(876, 452);
-            this.pboGirls.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pboGirls.Size = new System.Drawing.Size(898, 452);
+            this.pboGirls.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pboGirls.TabIndex = 1;
             this.pboGirls.TabStop = false;
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // lbTime
@@ -64,6 +66,7 @@
             // 
             // btnPrevious
             // 
+            this.btnPrevious.AllowDrop = true;
             this.btnPrevious.Location = new System.Drawing.Point(148, 405);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(75, 23);
@@ -74,6 +77,8 @@
             // 
             // btnNext
             // 
+            this.btnNext.AllowDrop = true;
+            this.btnNext.AutoEllipsis = true;
             this.btnNext.Location = new System.Drawing.Point(589, 405);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
@@ -82,11 +87,23 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // button1
+            // 
+            this.button1.AllowDrop = true;
+            this.button1.Location = new System.Drawing.Point(369, 405);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "随机浏览";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 452);
+            this.ClientSize = new System.Drawing.Size(898, 452);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.lbTime);
@@ -107,6 +124,7 @@
         private System.Windows.Forms.Label lbTime;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button button1;
     }
 }
 
