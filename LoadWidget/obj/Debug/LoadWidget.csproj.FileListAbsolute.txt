@@ -1,0 +1,9 @@
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\bin\Debug\LoadWidget.exe.config
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\bin\Debug\LoadWidget.exe
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\bin\Debug\LoadWidget.pdb
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\obj\Debug\LoadWidget.Form1.resources
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\obj\Debug\LoadWidget.Properties.Resources.resources
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\obj\Debug\LoadWidget.csproj.GenerateResource.Cache
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\obj\Debug\LoadWidget.exe
+c:\users\amosli\documents\visual studio 2013\Projects\LoadWidget\LoadWidget\obj\Debug\LoadWidget.pdb
+C:\Users\amosli\Documents\Visual Studio 2013\Projects\LoadWidget\LoadWidget\obj\Debug\LoadWidget.csprojResolveAssemblyReference.cache

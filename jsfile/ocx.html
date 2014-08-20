@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>翼支付-中国电信手机支付官方网站</title>
+  <link rel="stylesheet" href="https://www.bestpay.com.cn/assets/bootstrap.css">
+  <link rel="stylesheet" href="https://www.bestpay.com.cn/assets/app-1.6.2.css">
+  <link rel="stylesheet" href="https://www.bestpay.com.cn/assets/common-1.6.2.css">
+  <link rel="icon" href="https://www.bestpay.com.cn/assets/bestpay/logo.ico" type="images/x-icon"/>
+  <link rel="shortcut icon" href="https://www.bestpay.com.cn/assets/bestpay/logo.ico" type="images/x-icon"/>
+  <link rel="bookmark" href="https://www.bestpay.com.cn/assets/bestpay/logo.ico" type="images/x-icon"/>
+</head>
+<body>
+
+
+
+  <div class="index-main">
+  <div class="index-main-indexLogin js-comp" data-comp-path="official/bestpay/index-main/indexLogin" >
+
+<div class="index-loginbg">
+	<div class="index-login" >
+		<input type="hidden" id="checkTelFlag" value="Teltrue"/>
+		<input type="hidden" id="loginType" value="bestpay"/>
+		<div class="ui-logindivbg02"></div>
+		<div id="loginDIvBg" class="ui-logindivbg" style="background-image:url(/assets/bestpay/inside-main/loading.gif)">
+			<input id="userType" type="hidden" value="">
+		</div>
+		<div id="loginDiv" class="ui-logindiv" style="display:none">
+			<div class="ui-errortxtdiv" style="display:none">
+				<span class="ui-errortxtdiv-errimg">
+					<img src="https://www.bestpay.com.cn/assets/bestpay/er.png">
+				</span>
+				<span class="ui-errortxtdiv-errtxt">
+					账户名或登录密码不正确，请重新输入。您还可以：
+					<a class="ui-txt-a">找回登录密码</a>
+				</span>
+			</div>
+			<div class="ui-succtxtdiv" style="display:none">
+				<span class="ui-succtxtdiv-succimg">
+					<img src="https://www.bestpay.com.cn/assets/bestpay/se.png">
+				</span>
+				<span class="ui-succtxtdiv-succtxt">
+				</span>
+			</div>
+			<div class="ui-logindiv-main mob-login" id="Account"  >
+				<ul id="Telfalse" >
+					<form id="telFalseForm" name="telFalseForm" method="post">
+						
+						<li class="login-newbg01">
+							<span class="login-imgbg">
+								<i class="log-icon mob"></i>
+							</span>
+							<input name="productNo" id="otherPhone" type="text" maxlength="1100"
+							class="ui-txtinput01" autocomplete="off" value="请输入手机号(非电信)"/>
+						</li>						
+						<li class="login-newbg01">
+							<span class="login-imgbg">
+								<i class="log-icon pwd"></i>
+							</span>
+							<div class="js-security-input"></div>
+						</li>
+						<li class="login-btn02">
+							<a class="ui-button ui-button-morange ui-loginbutton"
+							id="otherLoginButtn" href="javascript:void(0);">登&nbsp;&nbsp;录</a>
+						</li>
+						<input type="text" id="encrypt" value=""  width="1000px" maxlength="1000"/>
+						<a  id="encrypt2"  ></a>
+					</form>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+</div>
+  
+ <script type="text/JavaScript">
+function CNNIC_change(eleId)
+{
+var str= document.getElementById(eleId).href;
+var str1 =str.substring(0,(str.length-6));
+str1+=CNNIC_RndNum(6);
+document.getElementById(eleId).href=str1;
+}
+function CNNIC_RndNum(k)
+{
+var rnd="";
+for (var i=0;i < k;i++)
+rnd+=Math.floor(Math.random()*10);
+return rnd;
+}
+</script>
+    <!--<script src="https://www.bestpay.com.cn/assets/common-1.6.2.js"></script>-->
+    <script src="common.js"></script>
+    <script>require("common/init")</script>
+ 
+
+
+</body>
+</html>
