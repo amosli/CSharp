@@ -156,7 +156,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ClientSize = new System.Drawing.Size(970, 473);
+            this.ClientSize = new System.Drawing.Size(935, 473);
             this.Controls.Add(this.lbStatistics);
             this.Controls.Add(this.btnCloth);
             this.Controls.Add(this.btnScissors);

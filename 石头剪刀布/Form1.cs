@@ -74,8 +74,6 @@ namespace 石头剪刀布
             lbComputer.Text = cpu.Fist;
             Judge.RESULT result = Judge.WhoWin(playerNum, cpuNum);
             lbJudge.Text = result.ToString();
-            lbStatistics.Text = "统计信息：\n\n1.您赢了" + playerWinTimes + "场比赛!\n\n" + "2.平手了" + tieTimes + "次; \n\n" + "3.输掉了" + (gameTimes - playerWinTimes - tieTimes) + "场比赛; \n\n" + "4.共进行了" + gameTimes + "场比赛!\n\n";
-
             if (result == Judge.RESULT.玩家赢)
             {
                 playerWinTimes++;
@@ -85,6 +83,7 @@ namespace 石头剪刀布
             {
                 tieTimes++;
             }
+            lbStatistics.Text = "统计信息：\n\n1.您赢了" + playerWinTimes + "场比赛!\n\n" + "2.平手了" + tieTimes + "次; \n\n" + "3.输掉了" + (gameTimes - playerWinTimes - tieTimes) + "场比赛; \n\n" + "4.共进行了" + gameTimes + "场比赛!\n\n";
 
         }
 
