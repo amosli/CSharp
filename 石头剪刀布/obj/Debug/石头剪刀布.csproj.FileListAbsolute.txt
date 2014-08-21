@@ -1,0 +1,8 @@
+D:\work\石头剪刀布\石头剪刀布\bin\Debug\石头剪刀布.exe.config
+D:\work\石头剪刀布\石头剪刀布\obj\Debug\石头剪刀布.Form1.resources
+D:\work\石头剪刀布\石头剪刀布\obj\Debug\石头剪刀布.Properties.Resources.resources
+D:\work\石头剪刀布\石头剪刀布\obj\Debug\石头剪刀布.csproj.GenerateResource.Cache
+D:\work\石头剪刀布\石头剪刀布\bin\Debug\石头剪刀布.exe
+D:\work\石头剪刀布\石头剪刀布\bin\Debug\石头剪刀布.pdb
+D:\work\石头剪刀布\石头剪刀布\obj\Debug\石头剪刀布.exe
+D:\work\石头剪刀布\石头剪刀布\obj\Debug\石头剪刀布.pdb
